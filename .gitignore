@@ -1,0 +1,20 @@
+cat > .gitignore << 'EOF'
+# Dependencies
+node_modules/
+packages/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+EOF
